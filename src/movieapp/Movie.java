@@ -11,8 +11,8 @@ package movieapp;
  */
 public class Movie
 {
-    private String title;
-    private String category;
+    public String title;
+    public String category;
     
     public Movie() {}
     
@@ -40,5 +40,11 @@ public class Movie
     public void setCategory(String category)
     {
         this.category = category;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return this.title + ", " + this.category;
     }
 }
