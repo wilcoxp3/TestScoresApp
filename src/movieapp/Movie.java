@@ -41,10 +41,4 @@ public class Movie
     {
         this.category = category;
     }
-    
-    @Override
-    public String toString()
-    {
-        return this.title + ", " + this.category;
-    }
 }

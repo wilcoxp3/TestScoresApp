@@ -14,14 +14,6 @@ public class MovieApp
         for (int i = 0; i < 100; i++)
         {
             movies.add(i, MovieIO.getMovie(i + 1));
-            String movieTitle = movies.get(i).toString();
-            System.out.println(i + 1 + " " +movieTitle);
-        }
-        
-        for (int i = 0; i < 100; i++)
-        {
-            String movieTitle = movies.get(i).toString();
-            System.out.println(i + 1 + " " +movieTitle);
         }
         
         System.out.println("Welcome to the Movie List Application.\n");
@@ -52,5 +44,6 @@ public class MovieApp
                 break;
             }
         }
+        System.out.println("DONE");
     }
 }
