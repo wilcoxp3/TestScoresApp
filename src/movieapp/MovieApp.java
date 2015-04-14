@@ -25,8 +25,6 @@ public class MovieApp
             String category = Validation.getString("What category are you interested in? ");
             for (Movie m : movies)
             {
-                
-                
                 if (category.equalsIgnoreCase(m.getCategory()))
                 {
                     System.out.println(m.getTitle());
