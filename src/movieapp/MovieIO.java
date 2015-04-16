@@ -3,6 +3,8 @@ package movieapp;
 
 public class MovieIO
     {
+    public static int NUM_OF_MOVIES = 100;
+    
     public static Movie getMovie(int index)
     {
         switch (index)
